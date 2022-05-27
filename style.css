@@ -40,12 +40,12 @@ body {
   flex-grow: 1
 }
 
-.add-item-section__task-row-wrapper {
+.new-task-section__task-wrapper {
   display: flex;
   padding: 5px 0 15px 0;
 }
 
-.ul {
+ul {
   margin: 0;
   padding: 0px;
 }
@@ -153,21 +153,21 @@ li >    input[type="text"] {
 }
 
 /* Completed */
-.ul#completed-tasks .label {
+.main_ul#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.ul li input[type=text] {
+.main_ul li input[type=text] {
   display: none
 }
 
-.ul li.editMode input[type=text] {
+.main_ul li.editMode input[type=text] {
   display: inline-block;
   width: 224px
 }
 
-.ul li.editMode .label {
+.main_ul li.editMode .label {
   display: none;
 }
