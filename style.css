@@ -166,13 +166,15 @@ button{
 }
 
 /* Edit Task */
+.li .task-input {
+ display: none
+}
 
 .edit-mode .task-input {
   display: inline-block;
   width: 224px
 }
 
-.li .task-input,
 .edit-mode .todo__label,
 .edit-mode .completed__label {
   display: none;
